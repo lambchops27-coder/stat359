@@ -7,7 +7,7 @@ from sklearn.metrics import classification_report, confusion_matrix, recall_scor
 import os; os.makedirs('results', exist_ok=True)
 
 # Importing geopolitical news article dataset
-news_data = pd.read_csv('/Users/lambchops7379/Desktop/Northwestern Winter Term/STAT 359 LLMs/Final Project/geo_candidates_clean_fv.csv')
+news_data = pd.read_csv('geo_candidates_clean_fv.csv')
 
 # Zero shot FinBERT
 finbert_pipeline = pipeline('text-classification',
