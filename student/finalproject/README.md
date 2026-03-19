@@ -28,6 +28,7 @@ python evaluate.py # evaluates models on geopolitical headlines test set
 | LoRA r = 4     | 0.66        | 0.22*        |
 | LoRA r = 16    | 0.89        | 0.27*        |
 | Full fine-tune | 0.955       | 0.37         |
+
 *LoRA geo results are possibly artefactual due to adapter loading issue.
 
 # Repository structure
